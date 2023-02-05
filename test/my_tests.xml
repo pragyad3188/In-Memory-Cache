@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="7" failures="0" disabled="0" errors="0" time="0" timestamp="2023-02-05T21:10:14.051" name="AllTests">
+  <testsuite name="LRUCacheTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-02-05T21:10:14.051">
+    <testcase name="InitTest" status="run" result="completed" time="0" timestamp="2023-02-05T21:10:14.051" classname="LRUCacheTest" />
+    <testcase name="Insert" status="run" result="completed" time="0" timestamp="2023-02-05T21:10:14.051" classname="LRUCacheTest" />
+  </testsuite>
+  <testsuite name="LruCacheTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-02-05T21:10:14.051">
+    <testcase name="ReplaceValueInCache" status="run" result="completed" time="0" timestamp="2023-02-05T21:10:14.051" classname="LruCacheTest" />
+    <testcase name="Clear" status="run" result="completed" time="0" timestamp="2023-02-05T21:10:14.051" classname="LruCacheTest" />
+    <testcase name="Remove" status="run" result="completed" time="0" timestamp="2023-02-05T21:10:14.051" classname="LruCacheTest" />
+    <testcase name="GetValueFromCache" status="run" result="completed" time="0" timestamp="2023-02-05T21:10:14.051" classname="LruCacheTest" />
+    <testcase name="Evict" status="run" result="completed" time="0" timestamp="2023-02-05T21:10:14.051" classname="LruCacheTest">
+<properties>
+<property name="output" value="&#x0A;Printing Cache&#x0A;Key:d     Value:4&#x0A;Key:c     Value:3&#x0A;Key:b     Value:2&#x0A;Key:a     Value:1&#x0A;&#x0A;&#x0A;&#x0A;Printing Cache&#x0A;Key:a     Value:1&#x0A;Key:d     Value:4&#x0A;Key:c     Value:3&#x0A;Key:b     Value:2&#x0A;&#x0A;&#x0A;&#x0A;Printing Cache&#x0A;Key:e     Value:5&#x0A;Key:a     Value:1&#x0A;Key:d     Value:4&#x0A;Key:c     Value:3&#x0A;&#x0A;&#x0A;&#x0A;Printing Cache&#x0A;Key:d     Value:4&#x0A;Key:f     Value:6&#x0A;Key:e     Value:5&#x0A;Key:a     Value:1&#x0A;&#x0A;&#x0A;"/>
+</properties>
+    </testcase>
+  </testsuite>
+</testsuites>
